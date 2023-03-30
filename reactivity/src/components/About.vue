@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld :list="list" />
+  <Home :list="list" />
   <TheWelcome :list="list" />
 </template>
 
