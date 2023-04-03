@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "reactivity": "^2.4.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
