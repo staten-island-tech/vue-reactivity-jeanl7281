@@ -182,7 +182,7 @@ h1 {
   background-color: #8db0f5;
 }
 #user-inputs {
-  width: 50vw;
+  width: 60vw;
 }
 .pet-choices {
   display: flex;
