@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import Card from "./components/CreateCards.vue";
-import Cart from "./components/ShoppingCart.vue";
+import Card from "./components/PetCard.vue";
+import Cart from "./components/PetCart.vue";
 export default {
   pet: "App",
   components: {
@@ -52,7 +52,7 @@ export default {
       selectedPet: 0,
       petChoices: [
       {
-    pet: "German Shepherd",
+        pet: "German Shepherd",
     price: 2000,
     description: "Large athletic, and intelligent dog with noble personalities",
     petImage:
@@ -166,11 +166,11 @@ export default {
 </script>
 
 <style lang="css">
-h2 {
-  font-size: 20px;
-}
 #title {
   text-decoration: underline;
+}
+h1 {
+  font-size: 30px;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

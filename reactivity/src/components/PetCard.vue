@@ -1,7 +1,7 @@
 <template>
   <div class="choice">
     <button class="pet" @click="$emit('addPetList')">
-      {{ pet }}. . . . ${{ price }}
+      {{ pet }} ${{ price }}
     </button>
     <img class="image" :src="PetImage" :alt="description[0]" />
     <h1 class="description">{{ description }}</h1>
