@@ -1,9 +1,9 @@
 <template>
   <div class="choice">
-    <button class="pet" @click="$emit('addPetList')">
-      {{ pet }} ${{ price }}
+    <button class="pet" @click="$emit('addDogList')">
+      {{ dog }} ${{ price }}
     </button>
-    <img class="image" :src="PetImage" :alt="description[0]" />
+    <img class="image" :src="dogImage" :alt="description[0]" />
     <h1 class="description">{{ description }}</h1>
   </div>
 </template>
@@ -12,9 +12,9 @@
 export default {
   name: "Card",
   props: {
-    pet: String,
+    dog: String,
     price: Number,
-    petImage: String,
+    dogImage: String,
     description: String,
   },
 };
