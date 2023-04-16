@@ -82,7 +82,7 @@ export default {
           dogImage: "https://cdn.pixabay.com/photo/2022/04/13/15/00/chow-chow-7130445_960_720.jpg",
         },
         {
-          pet: "Shiba Inu",
+          dog: "Shiba Inu",
           price: 3000,
           description: "Strong prey drive and are devoted and vigilant dogs.",
           dogImage: "https://th.bing.com/th/id/OIP.6LOFoODNAeX6OYQNa-j7YgHaE8?w=290&h=186&c=7&r=0&o=5&pid=1.7",
@@ -155,7 +155,7 @@ h1 {
   color: #25086e;
   display: flex;
   flex-direction: row;
-  background-color: #8db0f5;
+  background-color: #a5c3ff;
 }
 
 #user-inputs {

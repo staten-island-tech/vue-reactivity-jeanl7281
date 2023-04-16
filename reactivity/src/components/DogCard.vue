@@ -1,6 +1,6 @@
 <template>
   <div class="choice">
-    <button class="pet" @click="$emit('addDogList')">
+    <button class="dog" @click="$emit('addDogList')">
       {{ dog }} ${{ price }}
     </button>
     <img class="image" :src="dogImage" :alt="description[0]" />
@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style>
+.dog {
+  height: 2rem;
+}
 .image {
   height: 10rem;
   object-fit: cover;
